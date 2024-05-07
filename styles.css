@@ -1,0 +1,232 @@
+@import url("https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(to right bottom, #5cd60a, #4ed93c, #42db58, #38dd6f, #32de84);
+    overflow: hidden;
+}
+
+.content {
+    opacity: 0;
+    transition: opacity 1s ease;
+    position: relative;
+    z-index: 3; 
+}
+
+.content h2{
+    padding-left: 1.5rem;
+    color: white;
+    opacity: 0.7;
+    font-family: "PT Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+  text-shadow: 2px 2px 4px #000000a1;
+  
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 4rem); 
+    position: relative; 
+    bottom: 4rem; 
+    
+}
+
+
+
+.quote-container {
+    text-align: center;
+    margin-bottom: 10px;
+    
+}
+
+.quote-text {
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    padding-right: 4rem;
+    padding-left: 4rem;
+    opacity: 0;
+    animation: fadeInQuote 1.5s forwards;
+    font-family: "Merienda", cursive;
+    font-optical-sizing: auto;
+    text-shadow: 2px 2px 4px #00000067;
+    font-style: normal;
+    
+}
+
+@keyframes fadeInQuote {
+    from {
+        opacity: 0; 
+    }
+    to {
+        opacity: 1; 
+    }
+}
+
+.quote-btn {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color:rgb(255, 255, 255);
+    color: #171717;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+   
+}
+
+
+
+/* ===INTRO TITLE=== */
+.intro-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to right bottom, #5cd60a, #4ed93c, #42db58, #38dd6f, #32de84);
+    opacity: 0;
+    animation: fadeIn 1s forwards; 
+    z-index: 1;
+    
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0; 
+    }
+    to {
+        opacity: 1; 
+    }
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1; 
+    }
+    to {
+        opacity: 0; 
+    }
+}
+
+
+.main-title  {
+    font-size: 4rem;
+    color: rgb(255, 255, 255);
+    opacity: 0;
+    transition: opacity 1s ease;
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 0;
+    text-shadow: 2px 2px 4px #00000050;
+}
+
+.sub-title {
+    color: white;
+    color: rgb(255, 255, 255);
+    opacity: 0;
+    transition: opacity 1s ease;
+    padding-left: 5rem;
+    margin-top: 0 ;
+    font-family: "Merienda", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-shadow: 2px 2px 4px #00000050;
+}
+
+/* ======INTRO SVG==== */
+
+.intro_svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    opacity: 0;
+    transition: opacity 1s ease;
+}
+
+.intro_svg svg {
+    position: relative;
+    display: block;
+    width: calc(153% + 1.3px);
+    height: 203px;
+}
+
+.intro_svg .shape-fill {
+    fill: #ffffff75;
+}
+
+
+/* ========FOOTER SVG======== */
+
+.footer_svg {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+    opacity: 0.6;
+    z-index: -1; 
+}
+
+
+.footer_svg svg {
+    position: relative;
+    display: block;
+    width: calc(129% + 1.3px);
+    height: 314px;
+}
+
+.footer_svg .shape-fill {
+    fill: #FFFFFF;
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+    .footer_svg svg {
+        width: calc(400% + 1.3px); 
+        height: 400px; 
+    }
+}
+
+/* FOOTER ICON */
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    width: 100%;
+}
+
+.footer__social {
+    margin-bottom: 10px; 
+}
+
+.footer__social i {
+    color: #171717;
+    
+}
+.bx{
+    font-size: 1.5rem;
+}
+.footer__copy {
+    font-size: 14px;
+    color: #171717;
+    opacity: 0.7;
+}
