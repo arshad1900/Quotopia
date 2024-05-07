@@ -79,7 +79,10 @@ body {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-   
+    font-family: "Merienda", cursive;
+    font-optical-sizing: auto;
+    text-shadow: 2px 2px 4px #00000067;
+    font-style: normal;
 }
 
 
