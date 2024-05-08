@@ -7,8 +7,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background-color:#32de85da ;
-    /* background-image: linear-gradient(to right bottom, #60eb04a9, #4ed93ce7, #42db58, #38dd6fe0, #32de85da); */
+    background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);    
     overflow: hidden;
 }
 
@@ -98,8 +97,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color:#32de85da ;
-    /* background-image: linear-gradient(to right bottom, #60eb04b4, #4ed93ce7, #42db58, #38dd6fe0, #32de85da); */
+    background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
     opacity: 0;
     animation: fadeIn 1s forwards; 
     z-index: 1;
