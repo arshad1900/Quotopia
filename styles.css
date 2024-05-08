@@ -57,7 +57,7 @@ body {
     animation: fadeInQuote 1.5s forwards;
     font-family: "Merienda", cursive;
     font-optical-sizing: auto;
-    text-shadow: 2px 2px 4px #00000067;
+    text-shadow: 2px 2px 4px #00000036;
     font-style: normal;
     
 }
@@ -81,7 +81,7 @@ body {
     cursor: pointer;
     font-family: "Merienda", cursive;
     font-optical-sizing: auto;
-    text-shadow: 2px 2px 4px #00000067;
+    text-shadow: 2px 2px 4px #00000036;
     font-style: normal;
 }
 
