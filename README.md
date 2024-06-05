@@ -34,9 +34,10 @@ This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-![Page 1](https://github.com/arshad1900/Quotopia/assets/116487598/3267d98f-f0ad-4b6a-808f-50bf997e6949)
+![Page 2](https://github.com/arshad1900/Quotopia/assets/116487598/22952c79-6cf7-485a-9acf-e6372e8841a3)
+
 
 ---
-![Page 2](https://github.com/arshad1900/Quotopia/assets/116487598/1bd18f60-402a-47ef-90f3-a008fdbda05b)
+
 
 
