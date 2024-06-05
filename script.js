@@ -1,8 +1,6 @@
 const quoteContainer = document.getElementById('quote-container');
-
 const quoteText = document.getElementById('quote-text');
 const quoteBtn = document.getElementById('quote-btn');
-
 
 quoteBtn.addEventListener('click', getQuote);
 
@@ -27,12 +25,7 @@ function displayQuote(quote) {
     quoteText.style.animation = 'fadeInQuote 1.5s forwards';
 }
 
-
-
-
-
 getQuote();
-
 
 // ========INTRO TITLE FADE========
 
@@ -40,26 +33,18 @@ document.addEventListener('DOMContentLoaded', function() {
     const introContainer = document.querySelector('.intro-container');
     const title = document.querySelector('.main-title');
     const content = document.querySelector('.content');
-    const introsvg = document.querySelector ('.intro_svg');
-    const subtitle = document.querySelector ('.sub-title');
     
-
     introContainer.style.opacity = '1';
     title.style.opacity = '1';
-    introsvg.style.opacity = '1'
-    subtitle.style.opacity = '1'
     
-
+    
     setTimeout(function() {
         introContainer.style.opacity = '0';
         title.style.opacity = '0';
-        introsvg.style.opacity = '0'
-        subtitle.style.opacity = '0'
         
-       
+        
         setTimeout(function() {
             content.style.opacity = '1';
         }, 1000); 
-    }, 5000); 
+    }, 3000); 
 });
-
